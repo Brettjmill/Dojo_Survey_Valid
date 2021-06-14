@@ -23,6 +23,11 @@ namespace Dojo_Survey_Valid.Controllers
             return View();
         }
 
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
         public IActionResult Result(Survey inputSurvey)
         {
             return View("Result", inputSurvey);
